@@ -40,7 +40,11 @@
 {
     background: #333;
 }
-
+.btn-outline
+{
+    background: transparent;
+    border: 1px solid #fff;
+}
 
 
 /*Flex Utilite*/
@@ -54,4 +58,80 @@
 .flex-items > div
 {
     padding: 20px;
+}
+
+.flex-columns .row
+{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.column
+{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex:1;
+}
+.column-1,.column-2
+{
+    height: 100%;
+}
+.flex-columns .column-2
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 30px;
+}
+.flex-columns img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.flex-columns h2{
+    font-size: 40px;
+    font-weight: 100;
+    margin-bottom: 5px;
+}
+.flex-columns h4{
+    margin-bottom: 10px;
+}
+.flex-columns p
+{
+    margin-bottom: 20px;
+}
+
+/*Cases*/
+.section-padding
+{
+    padding: 20px 20px 40px;
+}
+
+.section-header
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+}
+.section-header h2
+{
+    font-size: 40px;
+    margin: 20px 0;
+}
+.flex-grid .row
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+.flex-grid .column
+{
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
 }
