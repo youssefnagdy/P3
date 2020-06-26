@@ -146,9 +146,32 @@ img{width: 100%}
 {
     outline: #28a745 1px solid;
 }
-.btn
+.callback-form .btn
 {
     padding: 12px;
     margin-top: 20px;
     width: 100%;
+}
+
+/*Footer*/
+.footer
+{
+    display:flex;
+    flex-direction: column;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.footer a{
+    color: #fff;
+}
+
+.footer .social > *
+{
+    margin-right: 30px;
+}
+.footer .social a:hover
+{
+    color: #28a745;
 }
