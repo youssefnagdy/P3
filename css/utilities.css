@@ -21,22 +21,37 @@
 {
     opacity: 0.9;
 }
-.btn-primary
+.btn-primary , .bg-primary
 {
     background: #28a745;
     color: white;
 }
-.btn-secondary
+.btn-secondary , .bg-secondary
 {
     background: #0284d0;
     color: white;
 }
-.btn-light
+.btn-light , .bg-light
 {
     background: #f4f4f4;
     color:#333;
 }
-.btn-dark
+.btn-dark , .bg-dark
 {
     background: #333;
+}
+
+
+
+/*Flex Utilite*/
+.flex-items
+{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+}
+.flex-items > div
+{
+    padding: 20px;
 }
