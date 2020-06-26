@@ -118,3 +118,9 @@ img{width: 100%}
     opacity: 0.7;
 }
 
+/*Team*/
+.team img
+{
+    border-radius: 50%;
+}
+
