@@ -124,3 +124,31 @@ img{width: 100%}
     border-radius: 50%;
 }
 
+/*Contact*/
+.callback-form
+{
+    width: 100%;
+    padding: 20px 0;
+}
+.form-control
+{
+    margin-bottom: 15px;
+}
+.form-control input
+{
+    width: 100%;
+    padding: 4px;
+    height: 40px;
+    border: 1px solid #f4f4f4;
+
+}
+.form-control input:focus
+{
+    outline: #28a745 1px solid;
+}
+.btn
+{
+    padding: 12px;
+    margin-top: 20px;
+    width: 100%;
+}
