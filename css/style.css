@@ -80,6 +80,7 @@ img{width: 100%}
     justify-content: center;
     height: 100%;
     padding: 0 20px;
+    text-align: center;
 }
 .hero .content h1
 {
@@ -174,4 +175,41 @@ img{width: 100%}
 .footer .social a:hover
 {
     color: #28a745;
+}
+
+/*Mobile*/
+@media only screen and (max-width: 768px)
+{
+    .navbar
+    {
+        flex-direction: column;
+        height: 120px;
+        padding: 20px;
+    }
+    .navbar a
+    {
+        padding: 10px;
+    }
+    .flex-items
+    {
+        flex-direction: column;
+    }
+    .flex-columns .column
+    {
+        flex:100%;
+        max-width: 100%;
+    }
+    .flex-grid .column
+    {
+        flex: 100%;
+        max-width: 100%;
+    }
+    .flex-grid .column img
+    {
+        margin-bottom: 8px;
+    }
+    .team img
+    {
+        width: 70%;
+    }
 }
