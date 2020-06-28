@@ -136,6 +136,10 @@
     padding: 0 4px;
 }
 
+.flex-grid .column img
+{
+    margin-bottom: 8px;
+}
 
 .flex-columns.flex-reverse .row
 {
