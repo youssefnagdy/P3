@@ -11,7 +11,6 @@ window.onscroll = function () {
       if(!scrolled)
       {
             navbar.style.transform = "translateY(-70px)";
-            console.log(scrolled);
       }
       setTimeout(function () {
           navbar.style.transform = "translateY(0)";
@@ -22,5 +21,17 @@ window.onscroll = function () {
       scrolled = false;
   }
 };
+
+
+// Add smooth scrolling to all links
+$("#navbar a , .btn").on('click', function(event) {
+    if (this.hash !== "") {
+        event.preventDefault();
+        var hash = this.hash;
+        $('html, body').animate({
+            scrollTop: $(hash).offset().top -100,
+        }, 800);
+    } // End if
+});
 
 
